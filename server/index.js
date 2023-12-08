@@ -4,8 +4,8 @@ const cors = require('cors');
 
 const port = 5000
 
-const mongoDB = require("./db")
-mongoDB()
+const mongoDB = require("./Db")
+
 app.use(cors());
 app.use((req,res,next)=>{
     res.setHeader("Access-Control-Allow-Origin","http://localhost:3000");
