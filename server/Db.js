@@ -27,7 +27,8 @@
 
 const mongoose  = require("mongoose");
 
-var mongoURL = "mongodb+srv://shashankchauhan:raja9528@cluster0.nkaqgrt.mongodb.net/gofoodmern?retryWrites=true&w=majority" ;
+// var mongoURL = "mongodb+srv://shashankchauhan:raja9528@cluster0.nkaqgrt.mongodb.net/gofoodmern?retryWrites=true&w=majority" ;
+var mongoURL="mongodb+srv://shashankchauhan:raja9528@cluster0.nkaqgrt.mongodb.net/gofoodmern?retryWrites=true&w=majority" ;
 
 mongoose.connect(mongoURL, {useNewUrlParser: true,useUnifiedTopology:true, useNewUrlParser:true})
 
